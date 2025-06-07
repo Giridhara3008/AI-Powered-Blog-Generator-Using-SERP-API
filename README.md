@@ -33,8 +33,8 @@ cd ai-blog-generator
 ## Project Structure
 ai-blog-generator/
  templates/
-   ├── index.html       # Input form
-   └── post.html        # Display generated post
+  index.html       # Input form
+  post.html        # Display generated post
  app.py               # Main Flask app with routing, logic, scheduler
  .env                 # API keys (not tracked)
  requirements.txt     # Python dependencies
