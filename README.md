@@ -32,15 +32,13 @@ cd ai-blog-generator
 
 ## Project Structure
 ai-blog-generator/
-│
-├── templates/
-│   ├── index.html       # Input form
-│   └── post.html        # Display generated post
-│
-├── app.py               # Main Flask app with routing, logic, scheduler
-├── .env                 # API keys (not tracked)
-├── requirements.txt     # Python dependencies
-└── README.md
+ templates/
+   ├── index.html       # Input form
+   └── post.html        # Display generated post
+ app.py               # Main Flask app with routing, logic, scheduler
+ .env                 # API keys (not tracked)
+ requirements.txt     # Python dependencies
+ README.md
  ## Steps to do the project 
  Install all requirements.txt and set up python virtual environment using venv.
  Built all required codes in app.py and run in the localhost.
